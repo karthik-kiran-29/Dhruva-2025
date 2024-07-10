@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+* {
+    margin: 0%;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+header a:hover {
+    color:blue;
+    font-size: larger;
+    transition-duration: 100ms;
+}
+
+#home {
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.nanum-gothic-coding-bold {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 700;
+    font-style: larger;
+    font-size: 6rem;
+    text-align: center;
+    
+  }
+  
+.register-trick {
+    font-size: 4rem;
+    padding-top: 80px;
+    
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-trick button{
+    font-size: large ;
+    padding: 2rem 4rem;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+
+.event-details {
+    display: grid;
+    color: white;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.event-details p{
+   text-align: center;
+   padding: 100px;
+   font-size: 2rem;
+   font-family: "Roboto", sans-serif ;
+   font-weight: 400;
+    font-style: normal;
+}
+
+.event-details p::first-line {
+    font-size: 5rem;
+   
+}
+
+.events-template {
+    color: white;
+    background-color: black;
+    height: 700px;
+} 
+
+
+
+.event-header {
+    margin: 40px 0px;
+    font-size: 100px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+#events{
+    height: auto;
+    font-family: monospace;
+}
+.event-date {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.event-list {
+    list-style: none;
+    padding: 0;
+    font-family: monospace;
+}
+
+.event-list-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.event-list-item span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.event-list-item p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.event-list-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.list-group-item {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+
+.hidden {
+    opacity: 0;
+    transition: 1s all;
+    filter: blur(10px);
+    transform: translateY(100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0%);
+    
+}
+
+
+
+.contact-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000; /* Adjust background color as needed */
+}
+
+.contact-container h1 {
+    padding-right: 200px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact-item i {
+    margin-right: 10px;
+}
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+}
+
